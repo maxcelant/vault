@@ -1,0 +1,3 @@
+- [ ] What is affinity / anti-affinity
+- [ ] What are NodePorts? Go into detail
+- [ ] What is a namespace?

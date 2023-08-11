@@ -1,0 +1,209 @@
+{
+  "main": {
+    "id": "46c954d08d035fdf",
+    "type": "split",
+    "children": [
+      {
+        "id": "bae0bd8a34be4b9e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2067ef5fd5deb6a3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "defa8113b7083a3e",
+    "type": "split",
+    "children": [
+      {
+        "id": "7e0b3c5f50008324",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c3a56fe6ccf8dc72",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6b39726e657bd98b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "37bdd9adbb7b40b6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "ae0e490de899baec",
+    "type": "split",
+    "children": [
+      {
+        "id": "454422fc2d874e2a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a5c596f91733414",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Git/Staging Index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "179f2aec419bfa45",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Git/Staging Index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e831886926a7be19",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d12baf2856515e61",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Git/Staging Index.md"
+              }
+            }
+          },
+          {
+            "id": "e1f4418f57e346f2",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "c3a56fe6ccf8dc72",
+  "lastOpenFiles": [
+    "Git/Rebasing.md",
+    "Git/Pulling From Main.md",
+    "Git/Git Reset.md",
+    "Jest/1 Basics/05 Arrays with Iterables.md",
+    "Jest/1 Basics/06 Errors.md",
+    "Jest/1 Basics/07 Async.md",
+    "Jest/1 Basics/08 Custom Matchers.md",
+    "JavaScript/Object.assign.md",
+    "Runway/runway_overview2.excalidraw",
+    "Runway/Flow.md",
+    "Runway/Backlog Grooming.md",
+    "Runway/Runway Repos.md",
+    "Docker/Kubernetes/Basics.md",
+    "Docker/Kubernetes/Namespace.md",
+    "Docker/Kubernetes/Services.md",
+    "Docker/Kubernetes/Master Nodes.md",
+    "Docker/Kubernetes/Kubelet Deep Dive.md",
+    "Docker/Kubernetes/Key Components of Kubernetes.md",
+    "Docker/Kubernetes/Installation.md",
+    "Docker/Docker/08 Docker Best Practices.md",
+    "Docker/Kubernetes/Kubernetes.canvas",
+    "Docker/Docker",
+    "Docker/Untitled.md",
+    "Docker/Kubernetes",
+    "Docker/Docker/06 Docker Compose.md",
+    "Testing/Untitled.canvas",
+    "Docker/Docker/05 Volumes.md",
+    "Docker/Docker/00 Tips and Tricks.md",
+    "Docker/Docker/03 Networks.md",
+    "Python/OOP.md",
+    "Python/Formatting.md",
+    "Runway/Untitled.canvas",
+    "_images/runway_overview.png",
+    "\"Docker",
+    "Runway",
+    "software-templates",
+    "Jest/1 Basics",
+    "Jest/2 Mocking",
+    "JavaScript",
+    "Jest",
+    "_images/Pasted image 20230715184904.png",
+    "_images/Pasted image 20230706150056.png",
+    "_images/Pasted image 20230622163203.png",
+    "_images/Pasted image 20230622142650.png",
+    "_images/Pasted image 20230621165541.png",
+    "_images/Pasted image 20230621145827.png",
+    "_images/Pasted image 20230621145242.png",
+    "_images/Pasted image 20230620161824.png",
+    "_images/Pasted image 20230620145805.png",
+    "Untitled.canvas"
+  ]
+}

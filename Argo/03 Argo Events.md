@@ -1,0 +1,1 @@
+Argo Events help automate tasks based off of an "event". Events could be anything from clicking a link, adding a file to a folder, a certain time of day. The "actions" are what occurs because of those events being triggered.

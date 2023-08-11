@@ -1,0 +1,12 @@
+/* Horizontally scrollable code blocks
+.cm-s-obsidian .CodeMirror-lines {
+    overflow-x: auto;
+    white-space: nowrap;
+} */
+
+.HyperMD-codeblock.cm-line,
+code[class*="language-"],
+pre[class*="language-"] {
+    white-space: pre;
+    overflow-x: scroll;
+}

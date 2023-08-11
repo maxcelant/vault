@@ -1,0 +1,6 @@
+- `pipenv install python-dotenv`
+- load env
+- `from dotenv import load_dotenv`
+- `load_dotenv(override=True)`
+- For running apps with environment variables: 
+	- `uvicorn app.main:app --reload --env-file=.env`

@@ -1,0 +1,6 @@
+- `history`
+- `!X + Tab` where `X` is the line of the command from your history
+- `CTRL + A` goes to front of line
+- `CTRL + E` goes to end of line
+- `Option + Click` in the terminal will bring you to that spot in the path
+- `open .` will open the current folder in the folder structure

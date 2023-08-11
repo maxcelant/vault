@@ -1,0 +1,2 @@
+- `python3 -m dir.file`
+- All imports in those files also have to have the same `dir.file` syntax
