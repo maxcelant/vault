@@ -1,5 +1,0 @@
-- [GraphQL for Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/using-the-api-to-manage-projects#authentication)
-- [Introspection](https://docs.github.com/en/graphql/guides/introduction-to-graphql#discovering-the-graphql-api)
-- [Playground](https://docs.github.com/en/graphql/overview/explorer)
-- [ChatGPT Chat](https://chat.openai.com/c/ac433e31-aceb-43f1-a17c-56c91c3f56ba)
-- 
