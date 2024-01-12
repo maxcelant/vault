@@ -24,7 +24,7 @@ Welcome to my main Obsidian vault. This repository is a curated collection of my
 - **iTerm2 Commands**: A comprehensive list of iTerm2 terminal commands for macOS.
 - **VSCode Commands**: Useful commands and shortcuts for Visual Studio Code.
 
->![[Pasted image 20240112104341.png]]
+<img width="1138" alt="image" src="https://github.com/maxcelant/vault/assets/92411137/033e41c8-650c-4ff7-ac3c-1cb69b67d15b">
 
 I hope you find this collection useful. If you have any suggestions or contributions, feel free to open an issue or a pull request.
 
