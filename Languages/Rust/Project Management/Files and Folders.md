@@ -1,0 +1,3 @@
+**Files**: In Rust, you often split your code into different files for better organization, especially in larger projects. Each file can be a module, or part of a module.
+
+**Folders**: Rust doesn't automatically treat folders as modules, but you can use folders to organize your files (modules). You typically have a `src` folder containing your source code, and you can create subfolders within it to group related modules.

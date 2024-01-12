@@ -1,0 +1,2 @@
+- "Document" is just abstract for something that can be searched for.
+- An _index_ is a collection of documents of a given type. 

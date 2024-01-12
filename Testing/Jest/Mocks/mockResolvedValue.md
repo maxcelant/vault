@@ -1,0 +1,3 @@
+This acts like a default in a `switch` statement, if there are no `mockResolvedValueOnce`, then this one will trigger. But if there are more than one `mockResolvedValueOnce`, then the first one triggered will go off before the next one is set up. 
+
+So in general, use `mockResolvedValue` in `beforeEach` statements and use `mockResolvedValueOnce` in the individual tests in which the resolved value needs to be altered from the norm!

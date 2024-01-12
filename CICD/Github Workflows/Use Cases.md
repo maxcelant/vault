@@ -1,0 +1,5 @@
+- **Continuous Integration:** Automating the building and testing of your code whenever a new commit is pushed.
+- **Continuous Deployment:** Once your code passes CI, sending it to production, staging or other environments.
+- **Issue & PR Automation:** Automate certain responses when issues or PRs are created. 
+- **Scheduling Jobs:** Run scripts or tasks at specific times, similar to cron jobs.
+- **External Integration:** Interact with other services like Slack or Jira.

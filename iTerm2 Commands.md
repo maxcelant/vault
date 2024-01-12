@@ -7,5 +7,3 @@
     - To close the current pane, you simply need to exit the session in that pane, usually by typing `exit` or pressing `Cmd` + `W`. When you do this, the pane will close, and the remaining pane(s) will adjust to use the available space.
 4. **Resize Panes**
     - To resize panes, place your mouse over the divider line between them. When the cursor changes to a resize cursor, click and drag to adjust the pane size.
-5. **Swap Panes**
-    - You can swap panes by pressing `Cmd` + `Option` + `Shift` + `Arrow Key` (in the direction you want to swap).

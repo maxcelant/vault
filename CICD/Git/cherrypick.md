@@ -1,0 +1,1 @@
+`git cherry-pick <commit 1> <commit 2> ...` allows you to move certain commits from a branch to your HEAD.

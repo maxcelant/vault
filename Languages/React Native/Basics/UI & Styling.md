@@ -1,0 +1,7 @@
+- `Text` containers dont support rounded borders on iOS so surround them in a `View`.
+- Styles do NOT cascade in RTN.
+- Put `ScrollView`'s inside of `View`s to control their spacing
+- `FlatList` has a `renderItem` prop that returns a `data` object which contains your `item` as well as other attributes.
+	- If your items have a `key` property, it will automatically be used by your `FlatList`.
+- You can use `functionName.bind(this, firstParam)` to call the function with that first parameter. Check out [video](https://www.youtube.com/watch?v=fP_kA90DgIU)
+- 

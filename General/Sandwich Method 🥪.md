@@ -1,5 +1,0 @@
-- Method for solving interview questions.
-- You look at the input and the output.
-- **Do one part of it and then run it.** 
-- This helps you isolate bugs and issues.
-- You don't want to spend too much time trying to _find_ where the bug is.

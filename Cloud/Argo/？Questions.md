@@ -1,0 +1,2 @@
+- What does the updating of the live apps?
+- Who created the `WebApp`CRD and how easy is it to create a CRD?

@@ -1,0 +1,5 @@
+- Going from `s` to all other vertices in a graph.
+- **BFS** works for graphs if they have no weight.
+- **[[Dijkstras Algorithm]]** works if the weights are 0 or more.
+- **Bellman-Ford's Algorithm** works even with negative weights
+- Make sure there are no negative cycles!

@@ -1,0 +1,5 @@
+- By default flex children only take as much space as they require.
+- If we add `flex: 1` to a child, it will take up as much room as it can within the flexbox, leaving just enough for other elements within.
+	- If you have multiple items with `flex: 1` they will distribute the space equally.
+	- If you have  foo with `flex: 2` and  bar with `flex: 3` on the other, then bar will take up 3/5ths of the available space.
+-  

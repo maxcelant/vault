@@ -1,0 +1,1 @@
+- Takes your query and translates it into something which the the search engine can understand.
