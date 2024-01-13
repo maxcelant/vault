@@ -1,0 +1,1 @@
+`expo init <app-name>`

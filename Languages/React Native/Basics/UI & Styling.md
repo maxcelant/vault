@@ -4,4 +4,10 @@
 - `FlatList` has a `renderItem` prop that returns a `data` object which contains your `item` as well as other attributes.
 	- If your items have a `key` property, it will automatically be used by your `FlatList`.
 - You can use `functionName.bind(this, firstParam)` to call the function with that first parameter. Check out [video](https://www.youtube.com/watch?v=fP_kA90DgIU)
-- 
+- You can set a default background color in the `app.json` file.
+- Use `expo install ...` to install expo tools or packages
+- You can use `Alert.alert(...)` for alerts on the screen for things like warnings.
+- `ImageBackground` component can be used to add an image background
+- `SafeAreaView` is used to set a minimum border for the screen.
+- Create a `./utils/colors.js` folder for colors. Make a `Colors` object with all the possible reusable colors.
+- Use the `children` prop to pass down components within components.
