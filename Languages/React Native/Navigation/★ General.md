@@ -1,17 +1,18 @@
-- We can use the `@react-navigation` library.
-- `createStackNavigator` is kind of like creating your routes in a regular React app.
-- We use `navigation.navigate('PageName')` to go to that page.
+- We can use the **`@react-navigation`** library.
+- **`createStackNavigator`** is kind of like creating your routes in a regular **React** app.
+- We use **`navigation.navigate('PageName')`** to go to that page.
+- Checkout **Bottom Tabs Navigator** -> [here](https://reactnavigation.org/docs/tab-based-navigation)
 
-```ts
+## Example
+```jsx
 import React from 'react';
 import { View, Button, Text } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
-// Home Screen Component
 function HomeScreen({ navigation }) {
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+    <View>
       <Text>Home Screen</Text>
       <Button
         title="Go to Details"
@@ -21,17 +22,6 @@ function HomeScreen({ navigation }) {
   );
 }
 
-// Details Screen Component
-function DetailsScreen() {
-  return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Details Screen</Text>
-      {/* You can add a button here to navigate back or to other screens */}
-    </View>
-  );
-}
-
-// Stack Navigator
 const Stack = createStackNavigator();
 
 function App() {

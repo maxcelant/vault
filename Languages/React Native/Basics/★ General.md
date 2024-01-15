@@ -1,0 +1,7 @@
+- Use the `children` prop to pass down components within components
+-  Use `expo install ...` to install expo tools or packages
+- You can use `Alert.alert(...)` for alerts on the screen for things like warnings.
+- `ImageBackground` component can be used to add an image background
+- You can use `functionName.bind(this, firstParam)`
+	- Check out [[bind]] .
+- to call the function with that first parameter. Check out [video](https://www.youtube.com/watch?v=fP_kA90DgIU)
