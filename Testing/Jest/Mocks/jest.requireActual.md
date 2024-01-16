@@ -1,4 +1,4 @@
-Allows you to retrieve the original (un-mocked) module when you have overridden it using [[Testing/Jest/Mocks/jest.mock]]. There are scenarios where you might want to mock only certain parts of a module.
+Allows you to retrieve the original (un-mocked) module when you have overridden it using [[jest.mock]]. There are scenarios where you might want to mock only certain parts of a module.
 
 ```js
 jest.mock('./userService', () => {

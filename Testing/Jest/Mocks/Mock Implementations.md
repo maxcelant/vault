@@ -30,7 +30,7 @@ mockAsyncFunction().catch(error => console.log(error)); // Prints: Error: 'mock 
 ```
 
 ### Mocking a module
-Allows you to replace a [[Testing/Jest/Mocks/jest.mock|module]] with with a custom implementation.
+Allows you to replace a [[jest.mock|module]] with with a custom implementation.
 
 ```javascript
 jest.mock('./path/to/module', () => {

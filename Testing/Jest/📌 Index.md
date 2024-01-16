@@ -14,7 +14,7 @@
 - [[Spying]]
 - [[Advanced Mocking]]
 ###### Methods
-- [[Testing/Jest/Mocks/jest.mock]]
+- [[jest.mock]]
 - [[jest.requireActual]]
 - [[mockResolvedValue]]
 - [[resetAllMocks]]
