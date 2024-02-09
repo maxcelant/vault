@@ -1,8 +1,17 @@
->![[Pasted image 20240102201356.png|Still Good? Icon]]
+
+![[Pasted image 20240119124205.png]]
 #### Architecture
 **Frontend**
 - **React Native** for code so its compatible to iOS and Android
-- **React Native Elements** for UI
+	- Need to know how to take user input
+	- Need to know how navigation works
+	- Need to know how to make http requests
+	- Need to know how to cache data
+	- Need to know how to integrate
+	- Need to know how to take pictures and scan them
+	- Need to know how modals work
+	- Need to know how context works
+	- Need to know how push notifications work!
 - **Jest** for testing purposes.
 - **Plaid** for API for transactions.
 
@@ -39,3 +48,4 @@
     /config
     README.md
 ```
+

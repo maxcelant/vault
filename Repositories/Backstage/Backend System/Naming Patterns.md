@@ -1,9 +1,9 @@
-| Name                                          | Explanation                                                                      |
-| --------------------------------------------- | -------------------------------------------------------------------------------- |
-| `plugin-<pluginId>-backend`                   | the plugin itself                                                                |
-| `plugin-<pluginId>-node`                      | houses the [[Extension Points\|extension points]] and other utilities            |
-| `plugin-<pluginId>-backend-module-<moduleId>` | houses modules that extend the plugins via extension points                      |
-| `backend`                                     | is the backend itself that wires everything together to something you can deploy |                                              |                                                                                  |
+| Name | Explanation |  |  |
+| ---- | ---- | ---- | ---- |
+| `plugin-<pluginId>-backend` | the plugin itself |  |  |
+| `plugin-<pluginId>-node` | houses the [[Extension Points\|extension points]] and other utilities |  |  |
+| `plugin-<pluginId>-backend-module-<moduleId>` | houses modules that extend the plugins via extension points |  |  |
+| `backend` | is the backend itself that wires everything together to something you can deploy |  |  |
 
 More info [here](https://backstage.io/docs/overview/architecture-overview/#package-architecture).
 

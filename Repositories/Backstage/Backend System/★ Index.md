@@ -19,15 +19,12 @@
 - [[Creating Extension Points]]
 
 #### 🧪 Testing
-- [[Testing|Testing the new Backend System]]
+- [[Repositories/Backstage/Backend System/Testing|Testing the new Backend System]]
 
 #### 📚 Useful References
 - [[Creating Services#^af1e42|Service Factories]]
 
 #### 🔬 Projects
 - [[RestClient Service Project]] - Looking to integrate the RestClient as a Service.
-
-#### ❓ Thoughts
-- Can we turn the `RestClient` into a [[Repositories/Backstage/Backend System/Services|service]]?
 
 

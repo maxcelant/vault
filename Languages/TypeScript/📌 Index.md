@@ -12,11 +12,6 @@
 #### ⚙️ Functional Programming
 - [[apply]]
 - [[bind]]
-- [[some]]
-- [[reduce]]
-- [[concat]]
-- [[find]]
-- [[every]]
 
 #### ⏳ Async Programming
 - [[Callback Functions]]
@@ -25,6 +20,5 @@
 
 #### 🛠️Utilities
 - [[Record]]
-- [[Spread Operator]]
 - [[WeakMap]]
 - [[Wrapping]]

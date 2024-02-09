@@ -1,2 +1,0 @@
-- Convention to have a `./store` folder for the app state.
-- 

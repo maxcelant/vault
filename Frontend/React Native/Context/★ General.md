@@ -56,7 +56,7 @@ If you want to use the context within any child element, you need to use the **`
 
 ```tsx
 const MealDetails = ({ mealId }) => {
-  const ctx = useContext(); 
+  const ctx = useContext(FavoritesContext); 
 
   const isFavoriteMeal = ctx.ids.includes(mealId)
 
