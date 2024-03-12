@@ -52,3 +52,50 @@ class System(ABC):
       visitor.visit_dir(self)
 
 ```
+
+Here is a concrete visitor implementation that simply performs a search on the files and directories:
+
+```python
+class SearchVisitor(Visitor):
+
+  def __init__(self, keyword):
+    self.keyword = keyword
+
+
+  def visit_file(self, file: System.File):
+    if file.name == self.keyword:
+      print(f'{file.name=} {file.contents=}')
+
+
+  def visit_dir(self, dir: System.Dir):
+    if dir.name == self.keyword:
+      print(f'{dir.name=} {[ f"{c.name}" for c in dir.content ]}')
+    
+    for content in dir.content:
+      content.accept(self)
+```
+
+And here we actually call and use it.
+
+```python
+if __name__ == '__main__':
+  
+  file_system = System.Dir(
+    name='dev',
+    size=100,
+    content=[
+      System.File(name='dog.img', contents='photo of doggy'),
+      System.File(name='cat.img', contents='photo of cat'),
+      System.Dir(
+        name='runway',
+        size=12500,
+        content=[
+          System.File(name='index.ts', contents='<h1>Welcome to Runway</h1>')
+        ]
+      )
+    ]
+  )
+
+  search_visitor = SearchVisitor('index.ts')
+  file_system.accept(search_visitor)
+```
