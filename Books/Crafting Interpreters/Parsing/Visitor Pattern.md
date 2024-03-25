@@ -6,6 +6,8 @@ Imagine you run a museum with various types of art pieces (paintings, sculptures
 - **Tours (Visitors)**: Each type of tour is like a different implementation of the Visitor interface. The tour guide (visitor) knows how to present each type of art piece to the museum visitors.
 - **Adding a new tour**: If you decide to offer a new type of tour, you don't need to change anything about the art pieces themselves; you simply prepare a new tour guide with knowledge (implementation) about how to present the art pieces.
 
+>![[Pasted image 20240324200343.png]]
+
 --- 
 #### Example
 Abstract visitor class, from this, we can make concrete visitor classes that can do some interesting things with its visit methods

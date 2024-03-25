@@ -22,26 +22,22 @@ So to sum it up, `useEffect` is like your instruction manual for your React comp
 import React, { useState, useEffect } from 'react';
 
 function RobotGame() {
-  const [battery, setBattery] = useState(100); // Our robot starts with a full battery
+  const [battery, setBattery] = useState(100); 
 
   useEffect(() => {
-    // This part runs when we first take the robot out of the box (componentDidMount)
     console.log("The robot is ready to play!");
-
-    // This part runs every time we play with the robot (componentDidUpdate)
     const playInterval = setInterval(() => {
       if (battery > 0) {
-        setBattery(battery - 10); // Playing with the robot uses up battery
+        setBattery(battery - 10);
         console.log("The robot is playing...");
       }
-    }, 1000); // The robot plays (battery decreases) every second
+    }, 1000);
 
-    // This part runs when we put the robot back in the box (componentWillUnmount)
     return () => {
-      clearInterval(playInterval); // Stop playing with the robot
+      clearInterval(playInterval);
       console.log("The robot is back in the box.");
     };
-  }, [battery]); // The useEffect runs every time the battery level changes
+  }, [battery]);
 
   return (
     <div>

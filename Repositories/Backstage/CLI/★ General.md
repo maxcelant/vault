@@ -1,0 +1,3 @@
+- Use `chalk`
+- They use an `index.ts` file within `/commands` which lazy attaches all the commands to the main commander cli.
+- Learn how `child-process` works
