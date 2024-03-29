@@ -1,0 +1,1 @@
+Objects in java (and python) can be used to store a Lox value. Since we don't know if it'll be a string, number, etc.

@@ -1,4 +1,20 @@
 ```ts
+export default function lazy(
+  getActionFunc: () => Promise<(...args: any[]) => Promise<void>>,
+): (...args: any[]) => Promise<void> {
+  return async (...args: any[]) => {
+    try {
+      const actionFunc = await getActionFunc();
+      await actionFunc(...args);
+      process.exit(0);
+    } catch (error) {
+      console.log(error)
+    }
+  };
+}
+```
+
+```ts
 import('./foo').then(m => m.default)
 ```
 
