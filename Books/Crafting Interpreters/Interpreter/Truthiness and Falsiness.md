@@ -1,0 +1,1 @@
+In our language, `false` and `nil` are falseyo, everything else is truthy.
