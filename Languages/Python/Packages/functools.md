@@ -11,8 +11,3 @@ def fibonacci(n):
 
 print(fibonacci(30))  # This will be much faster with caching.
 ```
-
-
-![[Pasted image 20230715184904.png]]
-
-I have a work and travel permit with a USCIS number and SSN, and is waiting for her greencard. 
