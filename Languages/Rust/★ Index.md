@@ -8,7 +8,7 @@
 - [[Shadowing]]
 - [[Constants]]
 - [[Statement vs Expressions]]
-- [[If Statements]]
+- [[Languages/Rust/Basics/If Statements]]
 - [[Arrays]]
 - [[Languages/Rust/Basics/Vectors]]
 - [[Pointers]]
