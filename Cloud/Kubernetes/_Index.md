@@ -5,7 +5,7 @@
 #### 📚 Core Concepts
 - [[Cluster]]
 - [[Nodes]]
-- [[Pods]]
+- [[Cloud/Kubernetes/Pods]]
 - [[Namespace]]
 - [[Cloud/Kubernetes/Services|Services]]
 - [[etcd]]

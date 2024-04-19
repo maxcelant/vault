@@ -4,3 +4,4 @@
 - `CTRL + E` goes to end of line
 - `Option + Click` in the terminal will bring you to that spot in the path
 - `open .` will open the current folder in the folder structure
+- `find /path/to/dir -name "*.pdf"`

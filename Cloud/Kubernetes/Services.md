@@ -1,4 +1,4 @@
-An abstraction that defines a set of [[Pods]] and enables traffic exposure, load balancing, and service discovery for those Pods.
+An abstraction that defines a set of [[Cloud/Kubernetes/Pods]] and enables traffic exposure, load balancing, and service discovery for those Pods.
 
 Some of the functionalities include:
 - Exposes the Service on the same port of each [[Nodes|Node]] in the cluster using NAT.

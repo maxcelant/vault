@@ -1,3 +1,9 @@
+---
+tags:
+  - parser
+---
+
+
 This printer takes a Parse Tree made up of `Expr` types like `Literal`, `Grouping`, `Unary`, `Binary`. From those, it will traverse the "tree" and do something with it. In this case, it just builds a simple output string
 
 ```python

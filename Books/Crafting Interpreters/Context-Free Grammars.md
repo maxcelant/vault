@@ -1,3 +1,9 @@
+---
+tags:
+  - key-concept
+---
+
+
 In the syntactic grammar we’re talking about now, we’re at a different level of granularity. Now each “letter” in the alphabet is an entire token and a “string” is a sequence of tokens—an entire expression.
 
 | Terminology            | Lexical Grammar | Syntactic Grammar |

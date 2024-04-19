@@ -1,0 +1,1 @@
+- Contains one or more tightly coupled containers.

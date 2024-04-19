@@ -1,4 +1,4 @@
-It bundles several core controllers into a single process. Ultimately to regulate the state of the system, like starting new [[Pods]] and taking down others.
+It bundles several core controllers into a single process. Ultimately to regulate the state of the system, like starting new [[Cloud/Kubernetes/Pods]] and taking down others.
 
 Controller Manager includes several controllers:
 - **Node Controller** - Responsible for responding and noticing when nodes go down.

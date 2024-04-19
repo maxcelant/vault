@@ -1,3 +1,9 @@
+---
+tags:
+  - state
+---
+
+
 - **Lexical scope (or static scope)** is a style of scope where the program shows where the scope starts and ends.
 - In Lox, curly-braces control scope. 
 

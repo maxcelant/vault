@@ -1,3 +1,9 @@
+---
+tags:
+  - scanner
+---
+
+
 ```ad-tldr
 Scans a character at a time, and figures out what kind of _token_ each _lexeme_ is. 
 ```

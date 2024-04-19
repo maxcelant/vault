@@ -1,0 +1,1 @@
+- `CTRL + t` - Open up fzf menu

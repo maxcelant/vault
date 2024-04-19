@@ -2,7 +2,7 @@ A way to select a group of resources, like Pods, based on their labels. It allow
 
 ##### `Example`
 
-Imagine you have 3 [[Pods]] with these labels:
+Imagine you have 3 [[Cloud/Kubernetes/Pods]] with these labels:
 
 ```bash
 app=frontend, tier=web
