@@ -1,11 +1,11 @@
-# Chapter 2 - _First Steps with Docker and Kubernetes_
 ### Docker
 - [[Containers]]
 - [[Images]]
 
-### Kubernetes Basics
+### Commands
 - [[Kubernetes Commands]]
 - [[Minikube]]
+- [[Docker Commands]]
 
 ### Master Node
 - [[Books/Kubernetes In Action/Scheduler|Scheduler]]
@@ -13,11 +13,8 @@
 
 ### Pods
 - [[Books/Kubernetes In Action/Pods|Pods]]
+- [[Why Do We Need Pods?]]
 
 ### Services
 - [[Why do we need a service?]]
-
----
-# Chapter 3 - _Pods: running containers in Kubernetes_
-
 

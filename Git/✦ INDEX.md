@@ -1,4 +1,5 @@
 ## Basics
+- [[Common Use Cases]]
 - [[origin]]
 
 ## Working with Branches

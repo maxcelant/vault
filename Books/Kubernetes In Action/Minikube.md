@@ -1,26 +1,13 @@
 ### 1. **Install Minikube**
-
-First, ensure that Minikube is installed on your machine. You can install it using various methods depending on your operating system. Here is how you would typically install Minikube on a Linux system using curl:
-
 ```bash
 curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 sudo install minikube /usr/local/bin/
 ```
 
 ### 2. **Start Minikube**
-
-Once Minikube is installed, you can start it with the following command:
-
 ```bash
 minikube start
 ```
-
-This command starts a single-node Minikube cluster. You can specify the VM driver if necessary (like VirtualBox, Hyperkit, etc.), depending on your setup:
-
-```bash
-minikube start --driver=<driver_name>
-```
-
 ### 3. **Create a Deployment**
 
 To deploy your application, you typically need a Docker container. Here's an example of creating a Kubernetes deployment using a Docker image. This example uses a generic image but replace `your-image-name` with the name of your Docker image:

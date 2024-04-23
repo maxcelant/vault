@@ -33,3 +33,7 @@
 - [[Logical Operators]]
 - [[Russell's Paradox]]
 - [[While Loops]]
+- [[Function Calling]]
+- [[LoxCallable]]
+- [[Native Functions]]
+- [[Function Declarations]]
