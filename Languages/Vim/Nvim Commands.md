@@ -32,7 +32,7 @@ Close buffer: `SPACE + x`
 **Terminal**
 Horizontal terminal: `SPACE + h`
 Toggle: `Option + h`
-Exit: `exit`
+Exit: `exit` OR `Ctrl+\` followed by `Ctrl+n`
 
 Toggle comment: `SPC + /`
 Save: `CTRL + s`
