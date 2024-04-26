@@ -29,7 +29,7 @@
 
 # Control Flow
 - [[For Loops]]
-- [[Books/Crafting Interpreters/If Statements|If Statements]]
+- [[books/Crafting Interpreters/If Statements|If Statements]]
 - [[Logical Operators]]
 - [[Russell's Paradox]]
 - [[While Loops]]

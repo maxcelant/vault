@@ -8,11 +8,11 @@
 - [[Docker Commands]]
 
 ### Master Node
-- [[Books/Kubernetes In Action/Scheduler|Scheduler]]
+- [[books/Kubernetes In Action/Scheduler|Scheduler]]
 - [[ReplicationController]]
 
 ### Pods
-- [[Books/Kubernetes In Action/Pods|Pods]]
+- [[books/Kubernetes In Action/Pods|Pods]]
 - [[Why Do We Need Pods?]]
 
 ### Services
