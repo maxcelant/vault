@@ -1,5 +1,3 @@
-Alright, imagine you have a toy car. This car needs batteries to run. Instead of permanently attaching a specific battery inside the car, there's a battery slot where you can easily put in any type of battery that fits.
-
 Whenever you want the car to run faster, you put in a stronger battery. When you just want it to move slowly, you put in a regular battery. You can change the behavior of the car by simply changing the battery you "inject" into it.
 
 In this analogy:

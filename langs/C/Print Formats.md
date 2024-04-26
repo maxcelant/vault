@@ -8,7 +8,7 @@
 | `%o`   | Octal            |
 | `%u`   | Unsigned Integer |
 | `%ld`  | Long Integer     |
-| `%lf`  | Double                 |
+| `%lf`  | Double           |
 
 
 #### Octal Example

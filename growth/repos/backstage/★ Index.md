@@ -1,5 +1,5 @@
 ## ☁️ High-Level
-- [[learning/repos/Backstage/Overview]]
+- [[growth/repos/backstage/Overview]]
 - [[Naming Patterns]]
 - [[Plugin Architecture]]
 
@@ -13,7 +13,7 @@
 - [[Creating Custom Actions]]
 
 ## 🛠️ Services
-- [[learning/repos/Backstage/Backend System/Services|Services]]
+- [[growth/repos/backstage/Backend System/Services|Services]]
 - [[Core Services]]
 - [[Service Factory]]
 - [[Creating Services]]

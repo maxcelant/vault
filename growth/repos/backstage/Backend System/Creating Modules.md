@@ -1,4 +1,4 @@
-- A [[learning/repos/Backstage/Backend System/Modules|Module]] is able to extend a plugin with additional functionality using the [[Extension Points]] registered by the plugin.
+- A [[growth/repos/backstage/Backend System/Modules|Module]] is able to extend a plugin with additional functionality using the [[Extension Points]] registered by the plugin.
 - A module can only extend one plugin but can interact with multiple [[Extension Points]] registered by that plugin.
 - A module is always initialized before the plugin it extends.
 - A module *depends* on the `ExtensionPoint`s exported by the target plugin's library package. 
@@ -44,5 +44,5 @@ backend.add(
 
 
 
-[[learning/repos/Backstage/Backend System/★ Index|Return]]
+[[growth/repos/backstage/Backend System/★ Index|Return]]
 

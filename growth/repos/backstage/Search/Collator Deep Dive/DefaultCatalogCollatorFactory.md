@@ -20,7 +20,7 @@ DefaultCatalogCollatorFactory.fromConfig(config, options)
 
 ### `execute()`
 
-Go here to learn more about [[learning/Generators|Generators]]!
+Go here to learn more about [[concepts/generators|generators]]!
 
 1. Get token and initialize `entitiesRetrieved` and `moreEntitiesToGet`.
 2. Goes through the catalog, retrieves entities at the given offset. This is like getting records from a database

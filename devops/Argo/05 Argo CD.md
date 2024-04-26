@@ -5,7 +5,7 @@ It's important to note that it also keeps track of configuration settings:
 - What resources each instance is allowed
 - What network settings it needs
 
-This practice is known as [[GitOps]]
+This practice is known as [[git-ops]]
 
 Argo CD keeps track of all the configurations in the Git repo. The configuration files are stored in a format like YAML or JSON typically. These files could be Kubernetes manifests, Helm charts, kustomize files, jsonnet files or any format that Kubernetes can understand. These configuration files define what resources should be running, their settings and how they relate to each other.
 

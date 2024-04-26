@@ -33,4 +33,4 @@ const boundGetValue = myObject.getValue.bind(myObject);
 console.log(boundGetValue()); // 42, 'this' is bound to myObject
 ```
 
-[[langs/JavaScript/✦ INDEX|Return]]
+[[langs/javascript/✦ INDEX|Return]]

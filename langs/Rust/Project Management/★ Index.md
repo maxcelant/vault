@@ -1,7 +1,7 @@
 #### Structure
 - [[Package Hierarchy]]
 - [[Paths]]
-- [[langs/Rust/Project Management/Project Structure|Project Structure]]
+- [[langs/rust/Project Management/Project Structure|Project Structure]]
 
 #### Keywords
 - [[super Keyword]]
@@ -17,5 +17,5 @@
 - [[Library Crate]]
 
 #### Modules
-- [[langs/Rust/Project Management/Modules|Modules]]
+- [[langs/rust/Project Management/Modules|Modules]]
 - [[Submodules]]

@@ -6,7 +6,7 @@
 #### 🧩 Object Oriented Features
 - [[Object.assign]]
 - [[Object.fromEntries]]
-- [[langs/JavaScript/Prototype|Prototype]]
+- [[langs/javascript/Prototype|Prototype]]
 - [[Prototype Chaining]]
 
 #### ⚙️ Functional Programming
