@@ -1,2 +1,0 @@
-- [Vigil by munificent](https://github.com/munificent/vigil)
-- 

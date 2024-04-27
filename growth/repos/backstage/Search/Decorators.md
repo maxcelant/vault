@@ -1,4 +1,0 @@
-- Decorators add extra information to a set of documents that the collator may not know about.
-- Stuff like usage or quality.
-- It sits between the [[Collator]] and [[Indexer]] during the indexing process. 
-- Used to add extra fields to documents.
