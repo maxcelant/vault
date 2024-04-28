@@ -4,7 +4,7 @@
 - Extracts metadata from real functions and objects.
 - Can create spies using `spyOn` to track function information.
 - Can clean up mocks to restore them to their original state.
-- Integrates with the [[globalthis]] to ensure mocks can appropriately interact with global objects and functions.
+- Integrates with the [[using globalthis]] to ensure mocks can appropriately interact with global objects and functions.
 
 The `ModuleMocker` object is then used in the `packages/jest-runtime/src/index.ts`
 
@@ -79,4 +79,4 @@ const mocked = JestMock.mocked.bind(JestMock);
 
 #### `matchArity`
 - Creates a mock middleware so that the original function stays in tact but has all the mock features on top of it.
-- This is how [[apply]] works
+- This is how [[using apply as decorator]] works

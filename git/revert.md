@@ -1,1 +1,0 @@
-`git revert <commit-hash>`/`git revert HEAD~<number>` will create a new commit with the reverted changes of the previous commit. This is important if you are trying to revert changes that were remote and not LOCAL.

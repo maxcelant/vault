@@ -2,8 +2,6 @@
 git blame -w -C -C -C -L <start>,<end> path/to/file
 ```
 
-OR
-
 ```bash
 git blam <start>,<end> path/to/file
 ```

@@ -1,4 +1,4 @@
-`git push origin foo` pushes the local changes of the branch `foo` to the remote repository named version of [[origin]] (typically your repository on a platform like GitHub, GitLab, etc.) and updating the remote's version of the branch `foo` with your local changes. If the remote doesn't already have a branch named `foo`, it will create one.
+`git push origin foo` pushes the local changes of the branch `foo` to the remote repository named version of [[what is origin?]] (typically your repository on a platform like GitHub, GitLab, etc.) and updating the remote's version of the branch `foo` with your local changes. If the remote doesn't already have a branch named `foo`, it will create one.
 
 This does NOT push the changes of `foo` into the `main` branch.
 

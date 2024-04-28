@@ -1,4 +1,4 @@
-How does a typescript class get converted to javascript? Part of the answer is [[iife]].
+How does a typescript class get converted to javascript? Part of the answer is [[immediately invoked function expression]].
 
 Let's start with constructors
 

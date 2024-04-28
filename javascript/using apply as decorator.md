@@ -12,9 +12,11 @@ const wrapperFn = function() {
 };
 
 wrapperFn.apply(innerFn, ['hello!']);
+```
 
-// ❯ node pp/apply.js
-// Inside wrapperFn...
-// This is  [Function: innerFn]
-// Inside innerFn: hello!
+```bash
+❯ node pp/apply.js
+Inside wrapperFn...
+This is  [Function: innerFn]
+Inside innerFn: hello!
 ```
