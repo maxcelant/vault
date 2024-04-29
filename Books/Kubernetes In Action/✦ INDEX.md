@@ -1,20 +1,24 @@
 ### Docker
-- [[Containers]]
-- [[Images]]
+- [[containers at a high level]]
+- [[images at a high level]]
 
 ### Commands
-- [[Kubernetes Commands]]
-- [[Minikube]]
-- [[Docker Commands]]
+- [[kubernetes commands]]
+- [[minikube starter kit]]
+- [[docker commands]]
 
 ### Master Node
-- [[books/Kubernetes In Action/Scheduler|Scheduler]]
-- [[ReplicationController]]
+- [[scheduler at high level|scheduler at high level]]
+- [[replicationcontroller at a high level]]
 
 ### Pods
-- [[books/Kubernetes In Action/Pods|Pods]]
-- [[Why Do We Need Pods?]]
+- [[pods at a high level]]
+- [[why do we need pods?]]
+- [[when to split into multiple pods]]
+- [[intra-pod communication]]
+- [[getting a pods definition]]
+- [[parts of a pod definition]]
 
 ### Services
-- [[Why do we need a service?]]
+- [[why do we need a service?]]
 

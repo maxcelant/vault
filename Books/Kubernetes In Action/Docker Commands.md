@@ -1,3 +1,8 @@
+---
+tags:
+  - docker
+  - commands
+---
 **Building an image from a Dockerfile**
 ```bash
 docker build -t <image-name> <dir>

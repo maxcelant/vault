@@ -1,3 +1,8 @@
+---
+tags:
+  - minikube
+  - commands
+---
 **Starting Minikube**
 ```bash
 minikube start
