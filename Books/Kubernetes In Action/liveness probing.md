@@ -1,0 +1,11 @@
+---
+tags:
+  - replicasets
+  - replicationcontroller
+  - daemonsets
+---
+- You should always set an initial delay on your health probes. Like 15 seconds will do.
+- Exit codes are 128 + (SIGNAL #)
+	- `137` is `SIGKILL`
+	- `143` is `SIGTERM`
+- Make your health checks low computation.

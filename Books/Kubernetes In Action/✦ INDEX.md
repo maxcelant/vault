@@ -9,7 +9,7 @@
 
 ### Master Node
 - [[scheduler at high level|scheduler at high level]]
-- [[replicationcontroller at a high level]]
+- [[replication-controller at a high level]]
 
 ### Pods
 - [[pods at a high level]]
@@ -18,6 +18,9 @@
 - [[intra-pod communication]]
 - [[getting a pods definition]]
 - [[parts of a pod definition]]
+- [[port-forwarding to talk to a pod]]
+- [[using labels to organize pods]]
+- [[listing pods using label selectors]]
 
 ### Services
 - [[why do we need a service?]]
