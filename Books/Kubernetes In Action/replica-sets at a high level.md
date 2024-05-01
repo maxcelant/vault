@@ -6,5 +6,9 @@ tags:
 - They are the newer version of [[replication-controller at a high level|ReplicationControllers]].
 - They allow you to specify more broad labels.
 - Instead of needing a specific key-value label, you can specify that it needs just a certain key or multiple values for a key type. 
-- The other aspects of the `ReplicaSet` follow those of `ReplicationControllers`.
-
+- The other aspects of the `ReplicaSet` follow those of `ReplicationControllers`
+- You’ll see four valid operators:
+	- **In—Label’s** value must match one of the specified values.
+	- **NotIn—Label’s** value must not match any of the specified values.
+	- **Exists—Pod** must include a label with the specified key (the value isn’t important). When using this operator, you shouldn’t specify the values field.
+	- **DoesNotExist—Pod** must not include a label with the specified key. The values property must not be specified.
