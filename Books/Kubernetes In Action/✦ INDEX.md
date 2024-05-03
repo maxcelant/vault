@@ -1,27 +1,40 @@
-### Docker
-- [[containers at a high level]]
-- [[images at a high level]]
+# High Level Overviews
+```dataview
+TABLE
+WHERE contains(file.tags, "high-level")
+```
 
-### Commands
-- [[kubernetes commands]]
-- [[minikube starter kit]]
-- [[docker commands]]
+# Docker
+```dataview
+TABLE
+WHERE contains(file.tags, "docker")
+```
 
-### Master Node
-- [[scheduler at high level|scheduler at high level]]
-- [[replication-controller at a high level]]
+# Commands
+```dataview
+TABLE
+WHERE contains(file.tags, "command") OR contains(file.tags, "kubectl")
+```
 
-### Pods
-- [[pods at a high level]]
-- [[why do we need pods?]]
-- [[when to split into multiple pods]]
-- [[intra-pod communication]]
-- [[getting a pods definition]]
-- [[parts of a pod definition]]
-- [[port-forwarding to talk to a pod]]
-- [[using labels to organize pods]]
-- [[listing pods using label selectors]]
+# Master Node
+```dataview
+TABLE
+WHERE contains(file.tags, "master-node")
+```
 
-### Services
-- [[why do we need a service?]]
+# Pods
+```dataview
+TABLE
+WHERE contains(file.tags, "pods")
+```
+# Services
+```dataview
+TABLE
+WHERE contains(file.tags, "service")
+```
 
+# Networking
+```dataview
+TABLE
+WHERE contains(file.tags, "networking")
+```
