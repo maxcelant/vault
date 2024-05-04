@@ -1,4 +1,4 @@
-```bash
+ ```bash
 git cherry-pick <commit 1> <commit 2> ...
 ```
 

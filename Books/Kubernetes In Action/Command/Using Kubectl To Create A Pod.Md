@@ -8,4 +8,4 @@ tags:
 kubectl create -f kubia-manual.yaml
 ```
 
-- Remember that this is how you look at the [[getting a pods definition|definition]] of the pod.
+- Remember that this is how you look at the [[Getting A Pods Definition|definition]] of the pod.

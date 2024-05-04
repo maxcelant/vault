@@ -5,7 +5,7 @@ tags:
   - high-level
 ---
 - It's job is to make sure that there's always the instance of pods alive that you wanted. (more or more replications of a pod).
-- We now use [[replica-sets at a high level|ReplicaSets]]
+- We now use [[Replicasets At A High Level|ReplicaSets]]
 - This is what creates the actual pod object.
 - To make a pod accessible from outside the cluster, we tell Kubernetes to expose all pods managed by that `ReplicationController` as a single service.
 - Think of it as a cookie cutter, you can change the cookie shape and it will start creating those types of cookies.
