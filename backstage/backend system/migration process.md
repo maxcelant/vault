@@ -49,5 +49,5 @@ backend.add(legacyPlugin('todo', import('./plugins/todo')));
 backend.start();
 ```
 
-[[backstage/backend system/★ index|Return]]
+[[Backstage/backend system/★ index|Return]]
 

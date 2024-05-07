@@ -1,4 +1,4 @@
 - Responsible for creating and initializing a specific service.
 - The factory provides a streamlined way to get an instance of the service with the appropriate settings.
-- Backstage has many plugins and they often interact with [[backstage/backend system/services|services]] like databases, auth mechanisms, or external systems.
+- Backstage has many plugins and they often interact with [[Backstage/backend system/services|services]] like databases, auth mechanisms, or external systems.
 - 

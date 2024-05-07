@@ -4,4 +4,4 @@
 - There can be no direct communication between plugins through code.
 - Because of this constraint, each plugin can be considered to be its own microservice.
 
-[[backstage/backend system/★ index|Return]]
+[[Backstage/backend system/★ index|Return]]

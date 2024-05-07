@@ -6,8 +6,8 @@
 #### 🔑 Key Concepts
 - [[backend instance]]
 - [[plugins]]
-- [[backstage/backend system/modules]]
-- [[backstage/backend system/services]]
+- [[Backstage/backend system/modules]]
+- [[Backstage/backend system/services]]
 - [[extension points]]
 - [[naming patterns]]
 
@@ -19,7 +19,7 @@
 - [[creating extension points]]
 
 #### 🧪 Testing
-- [[backstage/backend system/testing|Testing the new Backend System]]
+- [[Backstage/backend system/testing|Testing the new Backend System]]
 
 #### 📚 Useful References
 - [[creating services#^af1e42|Service Factories]]

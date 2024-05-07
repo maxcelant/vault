@@ -93,4 +93,4 @@ An exception to the above service reference naming pattern has been made for the
 
 While it is often preferred to prefix root scoped services with `Root`, it is not required. For example, `RootHttpRouterService` and `RootLifecycleService` follow this pattern, but `ConfigService` doesn't and it is a root scoped service.
 
-[[backstage/backend system/★ index|Return]]
+[[Backstage/backend system/★ index|Return]]

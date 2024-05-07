@@ -17,4 +17,4 @@ describe('My plugin tests', () => {
 });
 ```
 
-[[backstage/backend system/★ index|Return]]
+[[Backstage/backend system/★ index|Return]]

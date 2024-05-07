@@ -1,4 +1,4 @@
-- A [[backstage/backend system/modules|Module]] is able to extend a plugin with additional functionality using the [[extension points]] registered by the plugin.
+- A [[Backstage/backend system/modules|Module]] is able to extend a plugin with additional functionality using the [[extension points]] registered by the plugin.
 - A module can only extend one plugin but can interact with multiple [[extension points]] registered by that plugin.
 - A module is always initialized before the plugin it extends.
 - A module *depends* on the `ExtensionPoint`s exported by the target plugin's library package. 
@@ -44,5 +44,5 @@ backend.add(
 
 
 
-[[backstage/backend system/★ index|Return]]
+[[Backstage/backend system/★ index|Return]]
 

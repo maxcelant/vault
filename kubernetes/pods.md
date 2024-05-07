@@ -12,5 +12,5 @@ Pods have some interesting attributes:
 ^fa651a
 
 - **Lifecycle management**: Kubernetes can manage when pods are created and destroyed based on the desired state of your system.
-- **Scaling and load balancing**: By abstracting the idea of a "[[kubernetes/services|service]]" from the specific containers that run the service, Kubernetes can easily scale services by creating or destroying pods, and can distribute traffic to those pods.
+- **Scaling and load balancing**: By abstracting the idea of a "[[Kubernetes/services|service]]" from the specific containers that run the service, Kubernetes can easily scale services by creating or destroying pods, and can distribute traffic to those pods.
 - **Isolation**: Pods allow for isolation between different parts of your application. If different parts of your application are running in different pods, they can't directly interfere with each other.

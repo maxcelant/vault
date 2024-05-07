@@ -1,5 +1,5 @@
 ## ☁️ High-Level
-- [[backstage/overview]]
+- [[Backstage/overview]]
 - [[naming patterns]]
 - [[plugin architecture]]
 
@@ -13,7 +13,7 @@
 - [[creating custom actions]]
 
 ## 🛠️ Services
-- [[backstage/backend system/services|services]]
+- [[Backstage/backend system/services|services]]
 - [[core services]]
 - [[service factory]]
 - [[creating services]]

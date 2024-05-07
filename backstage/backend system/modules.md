@@ -5,6 +5,6 @@
 - The module and plugin must be deployed together on the same backend instance.
 - They are always initialized before the plugins.
 - Modules can't access all parts of the plugin. They interact with it exclusively through it's registered [[extension points]].
-- Can access and utilize [[backstage/backend system/services]] and can rely on their own service implementations.
+- Can access and utilize [[Backstage/backend system/services]] and can rely on their own service implementations.
 
-[[backstage/backend system/★ index|Return]]
+[[Backstage/backend system/★ index|Return]]

@@ -1,7 +1,7 @@
 # Chapter 1 - _Tour of Computer Systems_
 - [[Program Translation]]
 - [[System Organization]]
-- [[books/Computer Systems/Caches]]
+- [[Books/Computer Systems/Caches]]
 - [[Operating Systems]]
 - [[Communication via Networks]]
 - [[Important Themes]]

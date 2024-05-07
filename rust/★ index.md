@@ -8,14 +8,14 @@
 - [[shadowing]]
 - [[constants]]
 - [[statement vs expressions]]
-- [[rust/basics/if statements]]
+- [[Rust/basics/if statements]]
 - [[arrays]]
-- [[rust/basics/vectors]]
+- [[Rust/basics/vectors]]
 - [[pointers]]
 - [[box<t>]]
 
 #### 🔑 Key Concepts
-- [[rust/key concepts/conventions]]
+- [[Rust/key concepts/conventions]]
 - [[ownership system]]
 - [[copy trait with scalar values]]
 - [[pass by value]]
@@ -40,11 +40,11 @@
 - [[match]]
 
 #### 📦 Project Management
-- [[rust/project management/project structure|project structure]]
+- [[Rust/project management/project structure|project structure]]
 - [[binary crate]]
 - [[library crate]]
 - [[packages and crates]]
-- [[rust/project management/modules|modules]]
+- [[Rust/project management/modules|modules]]
 
 #### 🧠 Advanced
 - [[advanced vector methods]]

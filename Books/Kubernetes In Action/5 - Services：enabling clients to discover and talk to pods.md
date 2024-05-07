@@ -26,7 +26,7 @@ spec:
 - You can hit the service from a pod using `exec`:
 
 ```bash
-kubectl exec <pod-name> -- curl -s http://<SERVICE-IP>
+kubectl exec <pod name> -- curl -s http://<SERVICE IP>
 ```
 
 - If you specify port names of the Pod manifest, then you can reference those port names  in the service. This is helpful so that when you change one number, you dont need to change the other.
@@ -42,3 +42,95 @@ backend-database.default.svc.cluster.local
 - `default` is the namespace.
 - These are the only two things that are necessary to hit the service.
 
+```
+kubectl exec -it <pod name> bash
+...
+root@kubia-3inly:/# curl http://kubia.default
+> You’ve hit kubia-3inly
+```
+
+# Connecting to Services outside of the cluster
+- You can create an `Endpoints` resource where you establish a set of IPs to hit.
+- Couple that with a service resource to talk to an outside service.
+
+```yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: external-service
+spec:
+  ports:
+    - port: 80
+```
+
+```yaml
+apiVersion: v1
+kind: Endpoints
+metadata:
+  name: external-service
+spec:
+  type: ExternalName
+  externalName: someapi.somecompany.com
+  ports:
+    - port: 80
+subsets:
+  - addresses: 
+    - ip: 11.11.11.11
+    - ip: 22.22.22.22
+```
+
+- You can use direct IP addresses or FQDN of the service.
+
+# Exposing services to external clients using Ingress
+- You can make services accessible externally using `NodePort`, `LoadBalancer` or `Ingress`.
+- When a client sends a request to an Ingress, the host and path in the request determines which service the request is forwarded to.
+- Ingress is just a filter for the given client request.
+
+> ![[Pasted image 20240504135348.png]]
+
+- Notice how we can configure different hosts as well as different paths.
+- You can also enable TLS (Transport Layer Security), which encrypts communication from the client to the ingress controller (_Page 179_).
+
+```yaml
+apiVersion: v1
+kind: Ingress
+metadata:
+  name: kubia
+spec:
+  rules:
+    - host: kubia.example.com
+      http:
+        paths:
+          - path: /kubia
+            backend:
+              serviceName: kubia-nodeport
+              servicePort: 80
+		  - path: /foo
+            backend:
+              serviceName: foo
+              servicePort: 80
+    - host: foo.example.com
+      http:
+        paths:
+          - path: /
+            backend:
+              serviceName: bar
+              servicePort: 80
+            
+```
+
+# Readiness Probes
+- Probe a pod by sending a request to it and seeing the response.
+- When the response is successful, we can start sending client requests to that pod.
+- `readinessProbe` is added to the Pod manifest.
+
+# Creating a Headless Service
+- Setting the `clusterIP` field to `None` makes a Service _headless_.
+- This means you k8s won't assign an IP to the service.
+- This will give you the Pod IP's directly.
+
+# Summary
+- Services are used to load balance a selection of Pods.
+- If you want to communicate to outside the cluster from inside, use Endpoints.
+- If you want to communicate from outside to inside the cluster, use Ingress/NodePort/LoadBalancer.
+- Ingress can be used to filter to different specific Services given the host name and path.

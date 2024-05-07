@@ -1,17 +1,17 @@
 #### 🖍️ Getting Started
 - [[installation]]
-- [[kubernetes/architecture|architecture]]
+- [[Kubernetes/architecture|architecture]]
 
 #### 📚 Core Concepts
 - [[cluster]]
 - [[nodes]]
-- [[kubernetes/pods]]
+- [[pods]]
 - [[namespace]]
-- [[kubernetes/services|services]]
+- [[Kubernetes/services|services]]
 - [[etcd]]
 
 #### 🪖 Workloads
-- [[kubernetes/jobs|jobs]]
+- [[Kubernetes/jobs|jobs]]
 - [[deploying]]
 - [[podspecs]]
 
@@ -19,7 +19,7 @@
 - [[api server]]
 - [[control plane]]
 - [[controller manager]]
-- [[kubernetes/scheduler|scheduler]]
+- [[Kubernetes/scheduler|scheduler]]
 - [[kubelet]]
 
 #### 👨‍💼 Administration
@@ -28,7 +28,7 @@
 - [[logging]]
 
 #### 🛜 Networking
-- [[kubernetes/services|services]]
+- [[Kubernetes/services|services]]
 - [[cloud controller manager]]
 
 #### 🔨 Tools and Utilities

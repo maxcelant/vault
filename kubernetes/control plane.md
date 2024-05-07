@@ -3,7 +3,7 @@ Responsible for maintaining the desired state of the cluster. In a production en
 Has five main components:
 - [[etcd]] - Backing store for all cluster data.
 - [[api server]] - Central management entity receiving all API requests.
-- [[kubernetes/scheduler]] - Decides which pod goes on which node.
+- [[Kubernetes/scheduler]] - Decides which pod goes on which node.
 - [[controller manager]] - Start and manage various controllers.
 - [[cloud controller manager]] - 
 
