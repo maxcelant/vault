@@ -32,7 +32,7 @@ async function main() {
 main();
 ```
 
-### Worker File: worker.js
+### Worker File: `worker.js`
 
 ```javascript
 const { parentPort, workerData } = require('worker_threads');
