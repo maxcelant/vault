@@ -1,4 +1,4 @@
-`Omit` let's you build a type from an existing type but leave some fields out. The use-case is similar to that brought up in the [[pick]] example.
+`Omit` let's you build a type from an existing type but leave some fields out. The use-case is similar to that brought up in the [[Pick]] example.
 
 ```ts
 type User = {

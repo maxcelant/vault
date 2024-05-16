@@ -56,4 +56,4 @@ export const scaffolderPlugin = createBackendPlugin(
 );
 ```
 
-[[Backstage/backend system/★ index|Return]]
+[[Backstage/Backend System/★ index|Return]]

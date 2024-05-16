@@ -1,0 +1,5 @@
+- `jest.mock` is hoisted above all else.
+- `const mockRequest;` is hoisted as well (only declaration part).
+- The original spot of `mockRequest` is where the initialization occurs `mockRequest = jest.fn()` .
+- Since this init occurs before any relevant imports or usage that depends on the mock, it is ready to be used within the `jest.mock()` factory function.
+- This **works** because we don't directly import `@octokit/rest` during the tests allowing the mock to be registered before anything is imported.

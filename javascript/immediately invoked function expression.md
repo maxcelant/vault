@@ -16,4 +16,4 @@ console.log(userId()) // 1
 console.log(userId()) // 2
 ```
 
-Check out [[transpilation of classes]] to learn more on the subject.
+Check out [[Transpilation of Classes]] to learn more on the subject.

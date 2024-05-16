@@ -10,4 +10,4 @@ I#### Important Links
 #### 🛠️ Code Deep Dives
 - [[catalogcollatorfactory]]
 - [[indexbuilder]]
-- [[Backstage/search/scheduler|scheduler]]
+- [[Backstage/Search/scheduler|scheduler]]

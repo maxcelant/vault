@@ -1,9 +1,9 @@
-# Introducing Volumes
+### Introducing Volumes
 - Volumes all containers within the same Pod to share data.
 - Each container can mount the volume in any location in their filesystem.
 - Volumes are ephemeral — they will be lost when the Pod restarts.
 
-# Using `emptyDir`
+### Using `emptyDir`
 - Used to share data between containers.
 - Literally just creates an empty directory which containers can read/write to.
 - In the example below, the volume is being shared between the two containers. Notice how they are mounting it at different locations.
@@ -34,7 +34,7 @@ spec:
 	  emptyDir: {}
 ```
 
-# Using `gitRepo`
+### Using `gitRepo`
 - It just `emptyDir` but then a git repo is cloned into that directory.
 - Can use this to serve the latest version of your git repo.
 
@@ -62,13 +62,13 @@ spec:
 	    directory: .      // Clone into the root dir of the volume
 ```
 
-# Using `hostPath`
+### Using `hostPath`
 - This type of volume allows you to point to a node's filesystem.
 - Don't store Pod specific data on a node though, because if that pod changes nodes, that will be lost.
 - Only good for persistent storage on a _one node cluster_ like Minikube.
 >![[Pasted image 20240506160006.png]]
 
-# PersistentVolumes and PersistentVolumeClaims
+### PersistentVolumes and PersistentVolumeClaims
 - You create a `PersistentVolume` resource where you specify the size and access it supports.
 
 ```yaml

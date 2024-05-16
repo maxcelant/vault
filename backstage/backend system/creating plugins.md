@@ -58,4 +58,4 @@ If you're pushing it with options, then like so:
 backend.add(examplePlugin({ silent: true }));
 ```
 
-[[Backstage/backend system/★ index|Return]]
+[[Backstage/Backend System/★ index|Return]]

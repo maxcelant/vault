@@ -1,4 +1,4 @@
-# Creating Services
+### Creating Services
 
 - Allow you a load-balanced way to communicate to all pods of a certain label.
 - Use label selectors to decide which pods are part of the service.
@@ -13,8 +13,8 @@ metadata:
 spec:
   ports:
     - name: http
-      port: 80          // Port this service is available on
-      targetPort: 8080  // Container port the service will forward to
+      port: 80           // Port this service is available on
+      targetPort: 8080   // Container port the service will forward to
     - name: https
       port: 443          // Port this service is available on
       targetPort: 8443   // Container port the service will forward to
@@ -32,7 +32,7 @@ kubectl exec <pod name> -- curl -s http://<SERVICE IP>
 - If you specify port names of the Pod manifest, then you can reference those port names  in the service. This is helpful so that when you change one number, you dont need to change the other.
 - You can discover service IPs through env variables, DNS, or FQDN.
 
-# Connecting to Services via FQDN
+### Connecting to Services via FQDN
 
 ```
 backend-database.default.svc.cluster.local
@@ -49,7 +49,7 @@ root@kubia-3inly:/# curl http://kubia.default
 > You’ve hit kubia-3inly
 ```
 
-# Connecting to Services outside of the cluster
+### Connecting to Services outside of the cluster
 - You can create an `Endpoints` resource where you establish a set of IPs to hit.
 - Couple that with a service resource to talk to an outside service.
 
@@ -81,7 +81,7 @@ subsets:
 
 - You can use direct IP addresses or FQDN of the service.
 
-# Exposing services to external clients using Ingress
+### Exposing services to external clients using Ingress
 - You can make services accessible externally using `NodePort`, `LoadBalancer` or `Ingress`.
 - When a client sends a request to an Ingress, the host and path in the request determines which service the request is forwarded to.
 - Ingress is just a filter for the given client request.
@@ -119,17 +119,17 @@ spec:
             
 ```
 
-# Readiness Probes
+### Readiness Probes
 - Probe a pod by sending a request to it and seeing the response.
 - When the response is successful, we can start sending client requests to that pod.
 - `readinessProbe` is added to the Pod manifest.
 
-# Creating a Headless Service
+### Creating a Headless Service
 - Setting the `clusterIP` field to `None` makes a Service _headless_.
 - This means you k8s won't assign an IP to the service.
 - This will give you the Pod IP's directly.
 
-# Summary
+### Summary
 - Services are used to load balance a selection of Pods.
 - If you want to communicate to outside the cluster from inside, use Endpoints.
 - If you want to communicate from outside to inside the cluster, use Ingress/NodePort/LoadBalancer.

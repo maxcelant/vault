@@ -1,7 +1,7 @@
 - Used to wire the plugins together
 - It is up to you to decide how many different backends you want to deploy. 
 - You can have all features in a single one, or split things out into multiple smaller deployments. All depending on your need to scale and isolate individual features.
-- You can add any feature to a backend instance using `.add()`. Features include: [[plugins]], [[Backstage/backend system/modules]], or [[service factory|service factories]].
+- You can add any feature to a backend instance using `.add()`. Features include: [[plugins]], [[Backstage/Backend System/modules]], or [[service factory|service factories]].
 - As mentioned previously there's also the ability to create multiple of these backends in your project so that you can split apart your backend and deploy different backends that can scale independently of each other. 
 	- For instance you might choose to deploy a backend with only the catalog plugin enabled, and one with just the scaffolder plugin enabled.
 
@@ -22,4 +22,4 @@ backend.add(import('@backstage/plugin-catalog-backend''))
 await backend.start();
 ```
 
-[[Backstage/backend system/★ index|Return]]
+[[Backstage/Backend System/★ index|Return]]
