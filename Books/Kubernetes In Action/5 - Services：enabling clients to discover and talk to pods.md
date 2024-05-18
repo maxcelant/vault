@@ -86,8 +86,6 @@ subsets:
 - When a client sends a request to an Ingress, the host and path in the request determines which service the request is forwarded to.
 - Ingress is just a filter for the given client request.
 
-> ![[Pasted image 20240504135348.png]]
-
 - Notice how we can configure different hosts as well as different paths.
 - You can also enable TLS (Transport Layer Security), which encrypts communication from the client to the ingress controller (_Page 179_).
 

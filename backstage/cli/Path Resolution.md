@@ -25,7 +25,7 @@ export type Paths = {
   // Resolve a path relative to the app
   resolveTarget: ResolveFunc;
 
-  // Resolve a path relative to the app repo root
+  // Resolve a path relative to the non-runway mono repo root
   resolveTargetRoot: ResolveFunc;
 };
 ```
@@ -80,13 +80,15 @@ export function findOwnDir(searchDir: string) {
 
 ### findOwnRootDir
 - Finds the root of the monorepo that the package exists in.
-- Only accessible when running inside Backstage repo.
+- This only works in Runway repo.
+- **Example**: If were in the cli directory then it checks if there's a `/src` folder, that will tell us if we are a dependency or running it in Runway.
+- If there is a `src` folder then it simply goes out two directories to be at the root for Runway.
 ```ts
 export function findOwnRootDir(ownDir: string) {
   const isLocal = fs.existsSync(resolvePath(ownDir, 'src'));
   if (!isLocal) {
     throw new Error(
-      'Tried to access monorepo package root dir outside of Backstage repository',
+      'Tried to access monorepo package root dir outside of Runway repository',
     );
   }
 
@@ -100,12 +102,16 @@ export function findOwnRootDir(ownDir: string) {
 ```ts
 export function findPaths(searchDir: string): Paths {
   const ownDir = findOwnDir(searchDir);
-  
+```
+
+- `process.cwd()` returns the current directory of the Node.js process.
+- `fs.realpathSync()` resolves the absolute path of the given directory, handling symbol links in the path
+
+```ts
   const targetDir = fs
     .realpathSync(process.cwd())
     .replace(/^[a-z]:/, str => str.toLocaleUpperCase('en-US'));
 ```
-
 
 
 ```ts
@@ -143,6 +149,10 @@ export function findPaths(searchDir: string): Paths {
 ```
 
 - This is the object that **findPaths** returns.
+- **resolveOwn**: Resolves a path starting from the cli directory.
+- **resolveOwnRoot**: Starts you from the Runway root and can go into any subdirectory.
+- **resolveTarget**: Starts from the root of a non-Runway package/repo.
+- **resolveTargetRoot**: The root of the non-Runway **mono** repo.
 
 ```ts
   return {
@@ -161,3 +171,7 @@ export function findPaths(searchDir: string): Paths {
   };
 }
 ```
+
+
+### Where I left off
+- Investigate how `targetDir` works!
