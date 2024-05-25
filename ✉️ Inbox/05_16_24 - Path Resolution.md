@@ -1,4 +1,0 @@
-- `path.resolve(path, 'package.json')` just concats the paths that you enter but doesn't actually verify that the path exists or is real.
-	- You can concat multiple together:
-	- `path.resolve('src/foo', 'bar', 'baz') -> 'src/foo/bar/baz`
-- To verify that the path is **real**, you need to use `path.existSync(somePath)`.

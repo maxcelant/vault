@@ -30,7 +30,7 @@ export type Paths = {
 };
 ```
 
-
+WK524-LQXM-76LZ-42
 ### findRootPath
 - Looks for the `package.json` with a workspace config to identify the root of the repo.
 - If the path to the package is real and it passes the filter, then it is returned.
