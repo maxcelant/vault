@@ -1,7 +1,3 @@
----
-tags:
-  - scanner
----
 
 
 ```ad-tldr

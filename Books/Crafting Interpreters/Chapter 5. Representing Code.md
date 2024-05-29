@@ -1,8 +1,48 @@
----
-tags:
-  - key-concept
----
+#### Expression Problem
+- It's difficult to add new functionality to a group of related types.
+- In a OO language, that would involve adding a new method to ALL of the types.
+- For instance a set of `Car` types with `honk`, and `drive` methods. If you wanted to add `drift` method, you would have to add it to each type individually.
+- Visitor design pattern fixes this.
 
+#### Visitor Pattern
+- Allows you to have a single `accept(visitor: Visitor)` method in each type (`Car`) simply `visits` the intended implementation of the Visitor.
+- So in the example above, we could create concrete visitors for `VisitDrive`, `VisitHonk`, `VisitDrift`.
+- This keeps the implementation details of a method separate from the class itself.
+
+```ts
+interface Visitor {
+  visitRaceCar(raceCar: RaceCar);
+  visitTruck(truck: Truck)
+}
+
+abstract class Car {
+  abstract accept(visitor: Visitor);
+}
+
+class RaceCar extends Car {
+  accept(visitor: Visitor) {
+    visitor.visitRaceCar(this);   
+  }
+}
+
+class Truck extends Car {
+  accept(visitor: Visitor) {
+    visitor.visitTruck(this);   
+  }
+}
+
+class DriftVisitor implements Visitor {
+  visitRaceCar(raceCar: RaceCar) {
+    // do something
+  }
+
+  visitTruck(truck: Truck) {
+    // do something
+  }
+}
+```
+
+### Context Free Grammars
 
 In the syntactic grammar we’re talking about now, we’re at a different level of granularity. Now each “letter” in the alphabet is an entire token and a “string” is a sequence of tokens—an entire expression.
 
@@ -96,3 +136,22 @@ protein → "really"+ "crispy" "bacon"
 
 bread → "toast" | "biscuits" | "english muffin";
 ```
+
+### Grammar For Lox Language
+
+```js
+expression → literal | unary | binary | grouping ;
+
+literal → NUMBER | STRING | "true" | "false" | "nil" ;
+
+grouping → "(" expression ")" ;
+
+unary → ( "-" | "!" ) expression ;
+
+binary → expression operator expression ;
+
+operator → "==" | "!=" | "<" | "<=" | ">" |
+		   ">=" |"+" |"-" | "*" | "/";
+```
+
+`CAPITALIZED` terminals represent number or string literals.
