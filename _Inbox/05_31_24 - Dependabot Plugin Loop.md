@@ -1,0 +1,3 @@
+- If the devkit is updated, Dependabot will create pull requests to update the plugins.
+- If plugins are then updated, Dependabot might again try to update the devkit or related components.
+- This creates a feedback loop where updates to one component continuously trigger updates to the other.

@@ -1,6 +1,0 @@
-- Push Notifications
-- Caching
-- Offline State Management
-- Optical Character Recognition (OCR) for receipt scanning
-	- Local if i can
-- User authentication

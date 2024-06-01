@@ -1,0 +1,4 @@
+- How does a globally installed bin know where you are currently located in on the computer?
+- When you run a command, the shell starts a new process for that command. This process inherits the environment from the shell, including the current working directory.
+- The new process created for the CLI tool inherits the current working directory from the parent shell process.
+- This is why if you are in a directory `/foo/bar` and the cli is global, it will still return `/foo/bar` when you run `process.cwd()`
