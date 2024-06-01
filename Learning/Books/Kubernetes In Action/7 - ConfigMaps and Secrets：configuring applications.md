@@ -1,3 +1,9 @@
+### Summary
+- Kubernetes uses ConfigMaps and Secrets to securely manage and decouple application configurations from container images.
+- Embedding configs in Docker images is insecure; Kubernetes overcomes this with dynamic config management.
+- `ENTRYPOINT` and `CMD` define container behavior, while environment variables and command-line arguments can be injected into pods.
+- Secrets manage sensitive information securely, and Kubernetes ensures atomic updates to config files.
+
 ### Problem with Docker and Configs
 - Using configuration files in Docker containers is tricky because you would have to "bake it" into the container image. 
 - This is roughly equivalent to hard-coding config values into the app.
@@ -136,6 +142,8 @@ spec:
 
 ### Using `Secrets` resource
 - Secrets are encoded in base64. This allows it contain binary values, not just plain-text.
+- You can expose secrets as env variables similar to configmaps, but this is not recommended because env variables are usually dumped in error reports.
+- In general, use secret volumes.
 - When a secret volume is exposed to a container (or as a env variable), it is decoded and written to the file in actual form.
 
 ### Pod Yaml Definiton Breakdown
@@ -194,3 +202,6 @@ spec:
 	- More info on the `conf.d` convention [[06_01_24 - Linux dir.d convention|here]].
 - The `certs` volume is populated from the data in `fortune-https`.
 	- This data is mounted at `/etc/nginx/certs/`
+
+### Image Pull Secrets
+- When pulling images from a private docker hub repo, you need to specify `imagePullSecrets`.

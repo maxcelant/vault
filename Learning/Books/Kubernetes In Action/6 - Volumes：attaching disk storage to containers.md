@@ -1,3 +1,9 @@
+### Summary
+- Volumes allow containers within a Pod to share data, and they are ephemeral.
+- `emptyDir` volumes provide a shared empty directory for containers.
+- `gitRepo` volumes clone a git repository into an `emptyDir`.
+- PersistentVolumes (PVs) and PersistentVolumeClaims (PVCs) provide persistent storage, decoupling storage from pods.
+
 ### Introducing Volumes
 - Volumes all containers within the same Pod to share data.
 - Each container can mount the volume in any location in their filesystem.

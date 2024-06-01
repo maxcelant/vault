@@ -1,3 +1,9 @@
+### Summary
+- Services provide load-balanced communication to pods based on labels, accessible within or outside the cluster.
+- Use `Endpoints` to connect to external services and `Ingress` for exposing services to external clients with path-based routing.
+- Readiness probes ensure a pod is ready to handle requests before traffic is sent to it.
+- Headless Services, with `clusterIP` set to `None`, directly expose pod IPs without an assigned service IP.
+
 ### Creating Services
 
 - Allow you a load-balanced way to communicate to all pods of a certain label.
@@ -126,9 +132,3 @@ spec:
 - Setting the `clusterIP` field to `None` makes a Service _headless_.
 - This means you k8s won't assign an IP to the service.
 - This will give you the Pod IP's directly.
-
-### Summary
-- Services are used to load balance a selection of Pods.
-- If you want to communicate to outside the cluster from inside, use Endpoints.
-- If you want to communicate from outside to inside the cluster, use Ingress/NodePort/LoadBalancer.
-- Ingress can be used to filter to different specific Services given the host name and path.
