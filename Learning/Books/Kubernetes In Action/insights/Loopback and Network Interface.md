@@ -1,0 +1,2 @@
+- Two containers sharing a "loopback interface" or the same "network interface" just means that they can talk to each other using `localhost`.
+- **Loopback** refers to the network interface that allows a computer to talk to itself.
