@@ -89,6 +89,7 @@ subsets:
 
 ### Exposing services to external clients using Ingress
 - You can make services accessible externally using `NodePort`, `LoadBalancer` or `Ingress`.
+- A `NodePort` service makes the service accessible from outside the cluster.
 - When a client sends a request to an Ingress, the host and path in the request determines which service the request is forwarded to.
 - Ingress is just a filter for the given client request.
 

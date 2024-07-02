@@ -1,0 +1,1 @@
+A Linux namespace is a feature that isolates and virtualizes system resources for a set of processes, allowing each set to have its own separate instance of those resources. This creates an isolated environment where processes in different namespaces cannot see or affect each other's resources, enabling containerization and improving security and resource management.

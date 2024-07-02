@@ -1,0 +1,5 @@
+- You can have specific layouts per page.
+- `index.tsx` is the default route or `/` of that path.
+- [Link](https://nextjs.org/docs/pages/building-your-application/routing/linking-and-navigating) is used to get to other routes. Important for dynamic paths. You can do this with a URL object as well.
+- Use **Shallow Routing** when you dont want to avoid unnecessary re-renders of data.
+	- For example, if you have a page that shows a list of items and details for a selected item, you can use shallow routing to update the URL when an item is selected without reloading the entire page or fetching data again.
