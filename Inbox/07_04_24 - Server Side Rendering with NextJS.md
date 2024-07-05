@@ -1,0 +1,3 @@
+- Link: https://youtu.be/d2yNsZd5PMs?si=SffOuMfrl5baDP8V
+- NextJS loads the correct HTML the first time because it is "rendering" it first on the server.
+- A step needs to occur on the client to "catch up" to the server called _**hydration**_. Which basically makes sure all the props are passed down from the server -> client. 
