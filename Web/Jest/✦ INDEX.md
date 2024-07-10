@@ -4,7 +4,7 @@
 - [[custom matchers]]
 - [[falsy and truthy]]
 - [[Arrays with Iterables|Arrays]]
-- [[errors]]
+- [[Web/Jest/basics/errors]]
 - [[handling errors in endpoints]]
 - [[describe and fit]]
 - [[setup and teardown]]

@@ -11,7 +11,7 @@
 - [[if statements]]
 - [[arrays]]
 - [[Languages/Rust/basics/vectors]]
-- [[pointers]]
+- [[Languages/Rust/advanced/pointers]]
 - [[box<t>]]
 
 #### 🔑 Key Concepts
@@ -30,7 +30,7 @@
 - [[macros]]
 
 #### 🧩 Object Oriented Design
-- [[structs]]
+- [[Languages/Rust/object oriented design/structs]]
 - [[passing objects]]
 - [[unit-like struct]]
 - [[associated functions]]
