@@ -1,4 +1,6 @@
 - Files in the same folder are considered in the same package
+- **package** - a collection of source files in the same directory that are compiled as a unit
+- **module** - a collection of one or more packages that are versioned together as a unit
 - Capital means public, lowercase means private.
 - By keeping the arg param private but keeping the method public, this lets people use the method with a 
 
@@ -6,7 +8,7 @@
 import "mymodule/pkg/foo"
 ```
 
-- `mymodule` is your module in `mod.go`
+- ⭐️`mymodule` is your module in `mod.go`. You can always find the module name there!s
 - `pkg/foo` is the actual directory to the package assuming its `package foo`.
 - You can rename the import
 
