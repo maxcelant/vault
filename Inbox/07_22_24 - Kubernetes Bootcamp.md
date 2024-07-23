@@ -1,0 +1,4 @@
+- resource versions?
+- server side apply is a good way to say "i only want to modify this specific thing on a resource"
+- server side apply will conflict if theres been a client side apply
+- 
