@@ -1,8 +1,8 @@
 ### Summary
-- HorizontalPodAutoscaler is a resource that will automatically scale your pods to keep them below a resource threshold.
+- `HorizontalPodAutoscaler` is a resource that will automatically scale your pods to keep them below a resource threshold.
 - Vertical autoscaling is not yet available (sad).
 - Cluster autoscaling allows kubernetes to provision more/less nodes from the cloud provider depending on the usage.
-- PodDisruptionBudget allows you to set a min and max for number of pods that are always available of a label in the cluster.
+- `PodDisruptionBudget` allows you to set a min and max for number of pods that are always available of a label in the cluster.
 ### Horizontal pod autoscaling
 - Performed by Horizontal controller which is configured by a HorizontalPodAutoscaler (HPA).
 - Uses heapster to get its stats.
