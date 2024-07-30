@@ -87,6 +87,26 @@ subsets:
 
 - You can use direct IP addresses or FQDN of the service.
 
+### Exposing using NodePort
+- NodePort allows you to expose an app using the nodes ip by assigning the port for that app. All nodes on the cluster will make sure that the given port will route to that app.
+- So you can have multiple apps using the NodePort as long as they are using different port numbers.
+
+```yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: biggorilla-service
+spec:
+  type: NodePort
+  selector:
+    app: biggorilla
+  ports:
+    - protocol: TCP
+      port: 80            // Port of services interal cluster ip
+      targetPort: 3000    // Target port of backing pod
+      nodePort: 30123     // Service will be accessing through this port
+```
+
 ### Exposing services to external clients using Ingress
 - You can make services accessible externally using `NodePort`, `LoadBalancer` or `Ingress`.
 - A `NodePort` service makes the service accessible from outside the cluster.
