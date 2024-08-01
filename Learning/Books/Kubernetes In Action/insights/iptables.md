@@ -1,2 +1,0 @@
-- They do the actual routing of a service to a (random) pod.
-- Sets up and updates the iptables rules based on the current state of services and pods.

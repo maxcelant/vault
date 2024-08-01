@@ -1,3 +1,0 @@
-Watches for newly created pods that have no node assigned, and selects a node for them to run on. It takes into consideration individual and collective resource requirements, quality of service requirements, hardware/software/policy constraints, affinity and anti-affinity specifications, data locality, inter-workload interference, and deadlines.
-
-Decides which pod goes on which node. It doesn't actually put the pod on the node, it just makes the decision. The actual job of starting the pod on the selected node is done by kubelet, the agent running on each node.

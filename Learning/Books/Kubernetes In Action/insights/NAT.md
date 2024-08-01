@@ -1,1 +1,0 @@
-Takes a private IP and translates it to a single public ip when they make a public request.
