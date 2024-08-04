@@ -1,0 +1,3 @@
+- Created a very simple server client socket model in python to understand it more deeply.
+- The server has a `recv()` method that is blocking until a client sends a message _across_ the socket.
+- 

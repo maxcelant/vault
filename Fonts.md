@@ -1,2 +1,0 @@
-JetbrainsMono
-FiraMonoNerdFont

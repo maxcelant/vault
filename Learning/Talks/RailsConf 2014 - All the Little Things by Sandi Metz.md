@@ -1,4 +1,0 @@
-- "_Duplication is far cheaper than the wrong abstraction_"
-	- It's okay to stick to your current refactoring path finishing it before going on a tangent and abstracting before you get the full picture.
-- "_Refactor under green_"
-	- Use tests as a safety net for refactoring. Once you have green, THEN abstract/refactor.
